@@ -1,0 +1,26 @@
+Test Plan For Assignment 3:
+
+1) User input can be any case-insensitive versions of the full words
+   of the options or the upper and lower case versions of the first letters
+   of the option names.
+
+2) The program will repeatly ask for proper input if user fails to provide 
+   it. For example, if user enters just a quantity, and not a price, it will
+   prompt for for both.
+
+3) For Search Function;
+	If element is not in list:
+		It will simply show that no Stock or MF fits the provided
+		criteria.
+	Otherwise:
+		it will organize the investments into Stocks and MFs and 
+		show them to the user.
+4) For When user inputs are left blank:
+	The program will, based on context, either ignore the parameter,
+	like for the search function, or consider it as 0.
+5) All values are inputed as a positive value, and the program will use 
+   those values to compute the proper calculations and provide final 
+   values in either positive or negative values.
+6) I tested my code with a file called testfile.txt inside my ePortfolio 
+   folder so my command line argument was ePortfolio/testfile.txt. This 
+   also works without a file if there is no initial investment list.
